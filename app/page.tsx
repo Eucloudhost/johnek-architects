@@ -31,7 +31,7 @@ export default function Home() {
           <Hero content={content.hero} />
           <About content={content.about} />
           <Projects />
-          <Services content={content.services} />
+          <Services />
           <Contact content={content.contact} />
           <Footer content={content.footer} />
         </>
