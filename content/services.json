@@ -1,0 +1,311 @@
+{
+    "title": "Our Services",
+    "description": "Comprehensive architectural solutions from initial concept to final completion. We combine innovative design with practical expertise to bring your vision to life.",
+    "categories": [
+        {
+            "id": "design",
+            "name": "Design Services",
+            "color": "bg-blue-500/10",
+            "border": "border-blue-500/20"
+        },
+        {
+            "id": "planning",
+            "name": "Planning Services",
+            "color": "bg-green-500/10",
+            "border": "border-green-500/20"
+        },
+        {
+            "id": "consulting",
+            "name": "Consulting Services",
+            "color": "bg-purple-500/10",
+            "border": "border-purple-500/20"
+        },
+        {
+            "id": "management",
+            "name": "Management Services",
+            "color": "bg-amber-500/10",
+            "border": "border-amber-500/20"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Architectural Design",
+            "slug": "architectural-design",
+            "tagline": "From Vision to Reality",
+            "description": "Full-service architectural design including conceptualization, schematic design, design development, and construction documentation.",
+            "detailedDescription": "Our architectural design services encompass the entire design journey. We begin with conceptual sketches that capture your vision, progress through detailed schematic designs, develop comprehensive construction documents, and oversee the implementation to ensure design integrity is maintained throughout the construction process.",
+            "category": "design",
+            "icon": "🏛️",
+            "duration": "6-24 months",
+            "startingPrice": "$50,000",
+            "features": [
+                "Conceptual Design & 3D Visualization",
+                "Schematic Design Development",
+                "Construction Documentation",
+                "Building Information Modeling (BIM)",
+                "Sustainable Design Integration",
+                "Design Coordination with Consultants"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Discovery & Analysis",
+                    "description": "Understanding client needs, site analysis, and feasibility studies"
+                },
+                {
+                    "step": 2,
+                    "title": "Concept Development",
+                    "description": "Creating initial design concepts and 3D visualizations"
+                },
+                {
+                    "step": 3,
+                    "title": "Design Development",
+                    "description": "Refining designs, material selection, and technical detailing"
+                },
+                {
+                    "step": 4,
+                    "title": "Documentation",
+                    "description": "Producing comprehensive construction documents"
+                }
+            ],
+            "caseStudies": [
+                "The Vertica Tower",
+                "Cliffside Retreat"
+            ],
+            "testimonial": "Their design transformed our vision into a stunning reality that exceeded all expectations."
+        },
+        {
+            "id": 2,
+            "title": "Interior Architecture",
+            "slug": "interior-architecture",
+            "tagline": "Crafting Immersive Experiences",
+            "description": "Holistic interior design that complements the architectural vision while optimizing functionality and aesthetics.",
+            "detailedDescription": "Our interior architecture services focus on creating spaces that are not only beautiful but also functional and sustainable. We consider every detail from spatial planning and material selection to lighting design and furniture specification, ensuring a cohesive and immersive experience.",
+            "category": "design",
+            "icon": "🛋️",
+            "duration": "3-12 months",
+            "startingPrice": "$25,000",
+            "features": [
+                "Space Planning & Layout Optimization",
+                "Material & Finishes Selection",
+                "Custom Furniture Design",
+                "Lighting Design & Specification",
+                "Acoustic Planning",
+                "Wayfinding & Signage Design"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Programming",
+                    "description": "Understanding functional requirements and user needs"
+                },
+                {
+                    "step": 2,
+                    "title": "Concept Development",
+                    "description": "Creating mood boards and conceptual layouts"
+                },
+                {
+                    "step": 3,
+                    "title": "Design Development",
+                    "description": "Detailed design, material selection, and specifications"
+                },
+                {
+                    "step": 4,
+                    "title": "Implementation",
+                    "description": "Overseeing installation and final touches"
+                }
+            ],
+            "caseStudies": [
+                "Aura Headquarters",
+                "Harmony Resort"
+            ],
+            "testimonial": "The interior spaces they created perfectly reflect our brand identity and enhance productivity."
+        },
+        {
+            "id": 3,
+            "title": "Urban Planning",
+            "slug": "urban-planning",
+            "tagline": "Shaping Sustainable Communities",
+            "description": "Master planning and urban design services for sustainable, livable communities and urban environments.",
+            "detailedDescription": "We provide comprehensive urban planning services that balance growth with sustainability. Our approach considers environmental impact, social equity, economic viability, and cultural preservation to create vibrant, resilient communities.",
+            "category": "planning",
+            "icon": "🗺️",
+            "duration": "12-36 months",
+            "startingPrice": "$100,000",
+            "features": [
+                "Master Planning & Zoning Analysis",
+                "Sustainable Community Design",
+                "Transit-Oriented Development",
+                "Public Space Design",
+                "Environmental Impact Assessment",
+                "Community Engagement Programs"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Site Analysis",
+                    "description": "Environmental, social, and economic assessment"
+                },
+                {
+                    "step": 2,
+                    "title": "Visioning",
+                    "description": "Community workshops and vision development"
+                },
+                {
+                    "step": 3,
+                    "title": "Plan Development",
+                    "description": "Creating comprehensive master plans"
+                },
+                {
+                    "step": 4,
+                    "title": "Implementation Strategy",
+                    "description": "Phasing, financing, and regulatory strategies"
+                }
+            ],
+            "caseStudies": [
+                "Tech Nexus Campus"
+            ],
+            "testimonial": "Their urban planning transformed our city's development approach to be more sustainable and community-focused."
+        },
+        {
+            "id": 4,
+            "title": "Sustainability Consulting",
+            "slug": "sustainability-consulting",
+            "tagline": "Building for the Future",
+            "description": "Expert guidance on sustainable design strategies, energy efficiency, and green building certifications.",
+            "detailedDescription": "Our sustainability consulting services help clients achieve their environmental goals while optimizing building performance. We specialize in energy modeling, water conservation strategies, material lifecycle analysis, and green building certifications.",
+            "category": "consulting",
+            "icon": "🌿",
+            "duration": "3-9 months",
+            "startingPrice": "$15,000",
+            "features": [
+                "LEED, BREEAM & WELL Certification",
+                "Energy Modeling & Performance Analysis",
+                "Water Conservation Strategies",
+                "Carbon Footprint Assessment",
+                "Sustainable Material Selection",
+                "Post-Occupancy Evaluation"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Assessment",
+                    "description": "Baseline analysis and goal setting"
+                },
+                {
+                    "step": 2,
+                    "title": "Strategy Development",
+                    "description": "Creating customized sustainability strategies"
+                },
+                {
+                    "step": 3,
+                    "title": "Implementation Support",
+                    "description": "Guidance through design and construction"
+                },
+                {
+                    "step": 4,
+                    "title": "Certification",
+                    "description": "Documentation and certification submission"
+                }
+            ],
+            "caseStudies": [
+                "The Vertica Tower",
+                "Museo Contemporáneo"
+            ],
+            "testimonial": "Their expertise helped us achieve LEED Platinum while reducing operational costs by 40%."
+        },
+        {
+            "id": 5,
+            "title": "Project Management",
+            "slug": "project-management",
+            "tagline": "Precision & Accountability",
+            "description": "Comprehensive project oversight from initial concept through construction to ensure quality, budget, and timeline adherence.",
+            "detailedDescription": "Our project management services provide end-to-end oversight of your construction project. We coordinate all stakeholders, manage budgets and schedules, ensure quality control, and mitigate risks to deliver successful projects on time and within budget.",
+            "category": "management",
+            "icon": "📊",
+            "duration": "Project Duration",
+            "startingPrice": "8-15% of Project Cost",
+            "features": [
+                "Budget Management & Cost Control",
+                "Schedule Development & Tracking",
+                "Contract Administration",
+                "Quality Assurance & Control",
+                "Risk Management",
+                "Stakeholder Coordination"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Planning",
+                    "description": "Project setup, team assembly, and baseline establishment"
+                },
+                {
+                    "step": 2,
+                    "title": "Execution",
+                    "description": "Daily oversight, progress tracking, and issue resolution"
+                },
+                {
+                    "step": 3,
+                    "title": "Monitoring",
+                    "description": "Performance measurement and reporting"
+                },
+                {
+                    "step": 4,
+                    "title": "Closure",
+                    "description": "Final inspections, documentation, and lessons learned"
+                }
+            ],
+            "caseStudies": [
+                "All Major Projects"
+            ],
+            "testimonial": "Their project management kept our complex development on schedule and 15% under budget."
+        },
+        {
+            "id": 6,
+            "title": "Heritage Conservation",
+            "slug": "heritage-conservation",
+            "tagline": "Preserving Cultural Legacy",
+            "description": "Sensitive restoration and adaptive reuse of historic buildings, preserving cultural heritage for future generations.",
+            "detailedDescription": "We specialize in the careful restoration, conservation, and adaptive reuse of historic structures. Our approach balances preservation with modernization, ensuring historic buildings meet contemporary needs while maintaining their cultural significance and architectural integrity.",
+            "category": "consulting",
+            "icon": "🏛️",
+            "duration": "6-24 months",
+            "startingPrice": "$75,000",
+            "features": [
+                "Historic Building Assessment",
+                "Conservation Planning",
+                "Adaptive Reuse Design",
+                "Traditional Craftsmanship",
+                "Regulatory Compliance",
+                "Heritage Impact Assessment"
+            ],
+            "process": [
+                {
+                    "step": 1,
+                    "title": "Documentation",
+                    "description": "Historical research and condition assessment"
+                },
+                {
+                    "step": 2,
+                    "title": "Conservation Strategy",
+                    "description": "Developing preservation and adaptation plans"
+                },
+                {
+                    "step": 3,
+                    "title": "Design Development",
+                    "description": "Detailed conservation and modernization designs"
+                },
+                {
+                    "step": 4,
+                    "title": "Implementation",
+                    "description": "Overseeing sensitive restoration work"
+                }
+            ],
+            "caseStudies": [
+                "Historic Warehouse Conversion"
+            ],
+            "testimonial": "They masterfully restored our 19th-century building while making it fully functional for modern use."
+        }
+    ]
+}

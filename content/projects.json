@@ -1,0 +1,196 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "slug": "the-vertica-tower",
+            "name": "The Vertica Tower",
+            "tagline": "Urban Skyscraper with Vertical Gardens",
+            "description": "A 45-story residential skyscraper featuring innovative vertical gardens and energy-efficient design in the heart of Manhattan.",
+            "longDescription": "The Vertica Tower represents a new era of sustainable urban living. This 45-story residential skyscraper integrates biophilic design principles with cutting-edge sustainable technologies. The building features integrated vertical gardens on every balcony, rainwater harvesting systems, and solar facades that generate 30% of the building's energy needs.",
+            "category": "residential",
+            "location": "New York, USA",
+            "year": "2023",
+            "status": "completed",
+            "budget": "$85M",
+            "area": "450,000 sq ft",
+            "client": "Urban Development Group",
+            "architect": "Maria Rodriguez",
+            "challenges": [
+                "Limited urban footprint requiring vertical expansion",
+                "Integrating green systems in a dense urban environment",
+                "Meeting strict NYC building codes while maintaining design integrity",
+                "Managing construction in a busy metropolitan area"
+            ],
+            "solutions": [
+                "Developed modular green wall system for efficient installation",
+                "Implemented phased construction to minimize neighborhood disruption",
+                "Used BIM for precise coordination of complex systems",
+                "Collaborated with local authorities for streamlined approvals"
+            ],
+            "achievements": [
+                "LEED Platinum Certification",
+                "2023 Architectural Digest Award",
+                "40% reduction in energy consumption vs code requirements",
+                "Created 1.2 acres of green space in dense urban area"
+            ],
+            "gallery": [
+                {
+                    "type": "image",
+                    "url": "/projects/vertica/01-main.jpg",
+                    "alt": "The Vertica Tower exterior at dusk",
+                    "title": "Exterior View at Dusk"
+                },
+                {
+                    "type": "image",
+                    "url": "/projects/vertica/02-lobby.jpg",
+                    "alt": "Modern lobby with green wall",
+                    "title": "Main Lobby"
+                },
+                {
+                    "type": "image",
+                    "url": "/projects/vertica/03-apartment.jpg",
+                    "alt": "Residential apartment interior",
+                    "title": "Typical Apartment Interior"
+                },
+                {
+                    "type": "image",
+                    "url": "/projects/vertica/04-terrace.jpg",
+                    "alt": "Private terrace with vertical garden",
+                    "title": "Private Terrace"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/embed/example1",
+                    "alt": "Building construction timelapse",
+                    "title": "Construction Timelapse"
+                },
+                {
+                    "type": "plan",
+                    "url": "/projects/vertica/05-floorplan.jpg",
+                    "alt": "Typical floor plan",
+                    "title": "Floor Plan"
+                }
+            ],
+            "features": [
+                "Vertical gardens on all balconies",
+                "Rainwater harvesting system",
+                "Solar panel facade",
+                "Smart home automation",
+                "Double-height lobby with green wall",
+                "Rooftop amenities deck"
+            ],
+            "stats": [
+                {
+                    "label": "Height",
+                    "value": "580 ft",
+                    "icon": "📏"
+                },
+                {
+                    "label": "Units",
+                    "value": "320",
+                    "icon": "🏠"
+                },
+                {
+                    "label": "Green Space",
+                    "value": "1.2 acres",
+                    "icon": "🌿"
+                },
+                {
+                    "label": "Energy Savings",
+                    "value": "40%",
+                    "icon": "⚡"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "slug": "museo-contemporaneo",
+            "name": "Museo Contemporáneo",
+            "tagline": "Flowing Concrete Art Museum",
+            "description": "Contemporary art museum with flowing concrete forms and natural light optimization in Madrid's cultural district.",
+            "longDescription": "The Museo Contemporáneo is a celebration of fluid architecture that blurs the boundaries between art and space. Located in Madrid's cultural district, the museum features flowing concrete forms that create dynamic exhibition spaces. The design maximizes natural light through carefully placed skylights and light wells, creating an ever-changing atmosphere throughout the day.",
+            "category": "cultural",
+            "location": "Madrid, Spain",
+            "year": "2022",
+            "status": "completed",
+            "budget": "€65M",
+            "area": "180,000 sq ft",
+            "client": "Madrid Cultural Foundation",
+            "architect": "Carlos Mendez",
+            "challenges": [
+                "Creating fluid concrete forms with structural integrity",
+                "Precise natural light control for art conservation",
+                "Integrating accessibility in complex geometries",
+                "Blending modern design with historic neighborhood"
+            ],
+            "solutions": [
+                "Advanced formwork techniques for complex shapes",
+                "Computer-controlled louvers for light optimization",
+                "Universal design principles integrated from concept",
+                "Material palette that references local architecture"
+            ],
+            "achievements": [
+                "2022 European Museum of the Year Finalist",
+                "RIBA International Award",
+                "5-star accessibility rating",
+                "Featured in Architectural Review"
+            ],
+            "gallery": [
+                {
+                    "type": "image",
+                    "url": "/projects/museo/01-exterior.jpg",
+                    "alt": "Museum exterior with flowing forms",
+                    "title": "Exterior Facade"
+                },
+                {
+                    "type": "image",
+                    "url": "/projects/museo/02-gallery.jpg",
+                    "alt": "Main gallery space with natural light",
+                    "title": "Main Gallery"
+                },
+                {
+                    "type": "image",
+                    "url": "/projects/museo/03-skylight.jpg",
+                    "alt": "Dramatic skylight in atrium",
+                    "title": "Central Atrium"
+                },
+                {
+                    "type": "video",
+                    "url": "https://www.youtube.com/embed/example2",
+                    "alt": "Architect walkthrough",
+                    "title": "Architectural Walkthrough"
+                }
+            ],
+            "features": [
+                "Fluid concrete architecture",
+                "Natural light optimization system",
+                "Climate-controlled galleries",
+                "Interactive digital exhibitions",
+                "Rooftop sculpture garden",
+                "Auditorium for lectures"
+            ],
+            "stats": [
+                {
+                    "label": "Exhibition Space",
+                    "value": "85,000 sq ft",
+                    "icon": "🖼️"
+                },
+                {
+                    "label": "Galleries",
+                    "value": "12",
+                    "icon": "🎨"
+                },
+                {
+                    "label": "Construction Time",
+                    "value": "28 months",
+                    "icon": "⏱️"
+                },
+                {
+                    "label": "Visitor Capacity",
+                    "value": "2,500/day",
+                    "icon": "👥"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "hero": {
+        "tagline": "Designing Tomorrow's Landscapes Today",
+        "description": "Since 1998, Johnek Architects has been at the forefront of innovative architectural design, blending functionality with aesthetic excellence to create spaces that inspire and endure."
+    },
+    "about": {
+        "title": "About Johnek Architects",
+        "subtitle": "Excellence in Design Since 1998",
+        "content": "Johnek Architects Limited is an award-winning architectural practice with over two decades of experience in creating exceptional spaces. Our philosophy centers on the harmonious integration of form, function, and environment, resulting in designs that are both timeless and forward-thinking.\n\nWe believe that great architecture emerges from a deep understanding of our clients' needs, the site's context, and the broader environmental considerations. Each project is approached as a unique opportunity to innovate while respecting tradition.",
+        "stats": [
+            {
+                "value": "5+",
+                "label": "Years Experience"
+            },
+            {
+                "value": "300+",
+                "label": "Projects Completed"
+            },
+            {
+                "value": "50+",
+                "label": "Industry Awards"
+            },
+            {
+                "value": "40+",
+                "label": "Team Members"
+            }
+        ]
+    },
+    "projects": {
+        "description": "A curated selection of our architectural works, showcasing our commitment to design excellence and innovation across various typologies and scales.",
+        "categories": [
+            {
+                "id": "residential",
+                "name": "Residential"
+            },
+            {
+                "id": "commercial",
+                "name": "Commercial"
+            },
+            {
+                "id": "cultural",
+                "name": "Cultural"
+            },
+            {
+                "id": "hospitality",
+                "name": "Hospitality"
+            }
+        ],
+        "projects": [
+            {
+                "id": 1,
+                "name": "The Vertica Tower",
+                "description": "A 45-story residential skyscraper featuring innovative vertical gardens and energy-efficient design.",
+                "category": "residential",
+                "location": "New York, USA",
+                "year": "2023",
+                "image": "/projects/vertica.jpg"
+            },
+            {
+                "id": 2,
+                "name": "Museo Contemporáneo",
+                "description": "Contemporary art museum with flowing concrete forms and natural light optimization.",
+                "category": "cultural",
+                "location": "Madrid, Spain",
+                "year": "2022",
+                "image": "/projects/museo.jpg"
+            },
+            {
+                "id": 3,
+                "name": "Aura Headquarters",
+                "description": "Corporate headquarters featuring biophilic design and net-zero energy consumption.",
+                "category": "commercial",
+                "location": "Singapore",
+                "year": "2023",
+                "image": "/projects/aura.jpg"
+            },
+            {
+                "id": 4,
+                "name": "Cliffside Retreat",
+                "description": "Luxury residential villa seamlessly integrated into coastal cliffs with panoramic ocean views.",
+                "category": "residential",
+                "location": "Santorini, Greece",
+                "year": "2021",
+                "image": "/projects/cliffside.jpg"
+            },
+            {
+                "id": 5,
+                "name": "Harmony Resort",
+                "description": "Sustainable luxury resort blending traditional architecture with modern amenities.",
+                "category": "hospitality",
+                "location": "Bali, Indonesia",
+                "year": "2022",
+                "image": "/projects/harmony.jpg"
+            },
+            {
+                "id": 6,
+                "name": "Tech Nexus Campus",
+                "description": "Innovation campus designed to foster collaboration with modular, adaptable spaces.",
+                "category": "commercial",
+                "location": "Austin, USA",
+                "year": "2023",
+                "image": "/projects/nexus.jpg"
+            }
+        ]
+    },
+    "services": {
+        "title": "Our Services",
+        "description": "Comprehensive architectural solutions from concept to completion",
+        "services": [
+            {
+                "title": "Architectural Design",
+                "description": "Full-service architectural design including conceptualization, schematic design, design development, and construction documentation.",
+                "icon": "🏛️"
+            },
+            {
+                "title": "Interior Architecture",
+                "description": "Holistic interior design that complements the architectural vision while optimizing functionality and aesthetics.",
+                "icon": "🛋️"
+            },
+            {
+                "title": "Urban Planning",
+                "description": "Master planning and urban design services for sustainable, livable communities and urban environments.",
+                "icon": "🗺️"
+            },
+            {
+                "title": "Sustainability Consulting",
+                "description": "Expert guidance on sustainable design strategies, energy efficiency, and green building certifications.",
+                "icon": "🌿"
+            },
+            {
+                "title": "Project Management",
+                "description": "Comprehensive project oversight from initial concept through construction to ensure quality, budget, and timeline adherence.",
+                "icon": "📊"
+            },
+            {
+                "title": "Heritage Conservation",
+                "description": "Sensitive restoration and adaptive reuse of historic buildings, preserving cultural heritage for future generations.",
+                "icon": "🏛️"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Start Your Project",
+        "description": "Ready to bring your architectural vision to life? Get in touch with our team to discuss your project.",
+        "email": "info@johnekarchitects.com",
+        "phone": "+1 (555) 123-4567",
+        "address": "123 Design Avenue, New York, NY 10001, USA",
+        "social": {
+            "linkedin": "https://linkedin.com/company/johnek-architects",
+            "instagram": "https://instagram.com/johnekarchitects",
+            "twitter": "https://twitter.com/johnekarch"
+        }
+    },
+    "footer": {
+        "copyright": "© 2023 JOHNEK ARCHITECTS LIMITED. All rights reserved.",
+        "tagline": "Designing spaces that inspire human experience."
+    }
+}
