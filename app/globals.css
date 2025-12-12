@@ -28,16 +28,6 @@
   --radius-sm: 0.25rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --muted: #262626;
-    --muted-foreground: #a3a3a3;
-    --border: #262626;
-    --accent: #262626;
-  }
-}
 
 body {
   background: var(--background);

@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import content from '@/content/content.json'
 
 interface FooterProps {
     content: {
@@ -9,7 +10,7 @@ interface FooterProps {
     }
 }
 
-const Footer = ({ content }: FooterProps) => {
+const Footer = () => {
     const [hoveredLink, setHoveredLink] = useState<string | null>(null)
 
     const footerLinks = [
@@ -57,7 +58,7 @@ const Footer = ({ content }: FooterProps) => {
                         </div>
 
                         <p className="text-foreground/80 text-lg max-w-md mb-8 leading-relaxed">
-                            {content.tagline}
+                            {content.footer.tagline}
                         </p>
 
                         {/* Newsletter Subscription */}
@@ -108,7 +109,7 @@ const Footer = ({ content }: FooterProps) => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                         </svg>
                                     </div>
-                                    <span>info@johnekarchitects.com</span>
+                                    <span>{content.contact.email}</span>
                                 </a>
                                 <a href="tel:+15551234567" className="flex items-center text-muted-foreground hover:text-foreground transition-colors duration-300 group">
                                     <div className="w-8 h-8 bg-gold/10 rounded-lg flex items-center justify-center mr-3 group-hover:bg-gold/20 transition-colors duration-300">
@@ -116,7 +117,7 @@ const Footer = ({ content }: FooterProps) => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                                         </svg>
                                     </div>
-                                    <span>+1 (555) 123-4567</span>
+                                    <span>{content.contact.phone}</span>
                                 </a>
                             </div>
 
@@ -152,11 +153,11 @@ const Footer = ({ content }: FooterProps) => {
                 {/* Bottom Bar */}
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-sm text-muted-foreground">
-                        {content.copyright}
+                        {content.footer.copyright}
                     </p>
 
                     <div className="text-sm text-muted-foreground">
-                        <span className="mr-4">New York • London • Tokyo • Dubai</span>
+                        <span className="mr-4">{content.contact.address}</span>
                         <span>Registered in England & Wales: 12345678</span>
                     </div>
                 </div>
