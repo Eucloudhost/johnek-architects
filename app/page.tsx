@@ -33,7 +33,7 @@ export default function Home() {
           <Projects />
           <Services />
           <Contact content={content.contact} />
-          <Footer content={content.footer} />
+          <Footer />
         </>
       )}
     </>
